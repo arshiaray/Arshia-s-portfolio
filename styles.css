@@ -1,0 +1,126 @@
+@font-face {
+    font-family: 'LetterMagic';
+    src: url('/fonts/LetterMagic.ttf');
+}
+
+@font-face {
+    font-family: 'sanva';
+    src: url('/fonts/sanva\ font.ttf')
+}
+
+@font-face {
+    font-family: 'sanva';
+    src: url('/fonts/sanva\ font.ttf')
+}
+body {
+    background-color: rgb(169, 205, 175);
+}
+h1 {
+    font-family: 'LetterMagic';
+    font-size: 60px;
+    color: #A76571;
+    text-shadow: 1px 1px 0px black;
+    text-align: center;
+    margin-top: 20px;
+}
+h2 {
+    font-family: 'sanva';
+    margin-top: -10px;
+    color:#705458;
+    text-align: center;
+    text-shadow: 0px 0px 0.9px #C38D94;
+    font-size: 130%;
+}
+
+h3 {
+    margin-left: 20%;
+    margin-right: 20%;
+    font-family: 'sanva';
+    font-weight: bolder;
+    font-size: 20px;
+    text-shadow: 0px 0px 1.5px black;
+    border: 1px
+
+}
+
+h4 {
+    font-family: 'sanva';
+    text-shadow: 1px 1px 1px white;
+    margin-left: 20%;
+    margin-right: 20%
+}
+
+.catpic {
+    display: inline-block;
+    width: 20%;
+    height: auto;
+}
+p {
+    margin-left: 20%;
+    margin-right: 20%;
+    font-family: 'sanva';
+}
+.HeadingLine {
+    height: 3px;
+    background: linear-gradient(90deg, #8db094, #6d8a73, #8db094);
+    border: 0; 
+    border-radius: 2px;
+    width: 60%;
+    margin: auto;
+}
+
+.navigationbar {
+ padding: 0;
+ margin: 0;
+ text-align: center;
+ font-family: 'sanva';
+ font-size: 18px; 
+ -webkit-text-stroke: 0.5px pink;
+ letter-spacing: 2px;
+
+}
+
+li {
+    display: inline-block;
+    padding-left: 0;
+}
+
+a:link {
+    color: black;
+}
+
+a:visited {
+    color: #845799;
+}
+
+a:hover {
+    color: #845799;
+}
+
+a:active {
+    color: #be97d1;
+}
+
+.githublogo {
+    width: 6%;
+    height: auto;
+    margin-left: 40%;
+}
+
+.instalogo {
+    width: 6%;
+    height: auto;
+    text-align: center;
+}
+
+.twitterlogo {
+    width: 7%;
+    height: auto;
+    margin-bottom: -6px;
+    text-align: center;
+}
+
+.copyright {
+    font-size: 12px;
+    text-align: center;
+}
