@@ -17,7 +17,7 @@ body {
 }
 h1 {
     font-family: 'LetterMagic';
-    font-size: 60px;
+    font-size: 4.5em;
     color: #A76571;
     text-shadow: 1px 1px 0px black;
     text-align: center;
@@ -35,19 +35,21 @@ h2 {
 h3 {
     margin-left: 20%;
     margin-right: 20%;
+    margin-bottom: 1rem;
     font-family: 'sanva';
     font-weight: bolder;
     font-size: 20px;
     text-shadow: 0px 0px 1.5px black;
-    border: 1px
+    border: 1px;
 
 }
 
 h4 {
     font-family: 'sanva';
-    text-shadow: 1px 1px 1px white;
+    text-shadow: 1px 1px 1px rgba(255, 226, 241, 1);
     margin-left: 20%;
-    margin-right: 20%
+    margin-right: 20%;
+    font-size: 1em;
 }
 
 .catpic {
@@ -69,14 +71,17 @@ p {
     margin: auto;
 }
 
-.navigationbar {
+.navigation-bar {
  padding: 0;
- margin: 0;
- text-align: center;
+ margin-top: 1rem;
+ margin-bottom: 1rem;
+ justify-content: center;
  font-family: 'sanva';
- font-size: 18px; 
+ font-size: 1em; 
  -webkit-text-stroke: 0.5px pink;
  letter-spacing: 2px;
+ --bs-nav-pills-link-active-bg: rgba(112, 78, 95, 0.55);
+ --bs-nav-link-hover-color: rgba(131, 23, 79, 0.91);
 
 }
 
