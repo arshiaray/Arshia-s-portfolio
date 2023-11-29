@@ -1,16 +1,16 @@
 @font-face {
     font-family: 'LetterMagic';
-    src: url('/fonts/LetterMagic.ttf');
+    src: url('./fonts/LetterMagic.ttf');
 }
 
 @font-face {
     font-family: 'sanva';
-    src: url('/fonts/sanva\ font.ttf')
+    src: url('./fonts/sanva\ font.ttf')
 }
 
 @font-face {
     font-family: 'sanva';
-    src: url('/fonts/sanva\ font.ttf')
+    src: url('./fonts/sanva\ font.ttf')
 }
 body {
     background-color: rgb(169, 205, 175);
