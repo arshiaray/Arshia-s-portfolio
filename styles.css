@@ -57,16 +57,18 @@ h4 {
     font-size: 1em;
 }
 
-.catpic {
+.me-pic {
     display: inline-block;
-    width: 20%;
+    width: 15%;
     height: auto;
+    margin-left: 20%;
 }
 p {
     margin-left: 20%;
     margin-right: 20%;
     font-family: 'sanva';
     color: #1f063f;
+    
 }
 .HeadingLine {
     height: 3px;
@@ -89,6 +91,10 @@ p {
  --bs-nav-link-hover-color: #502563;
 --bs-nav-link-active-color: #b972cd;
 
+}
+
+.dropdown-menu {
+    --bs-dropdown-link-active-bg:#b972cd;
 }
 label {
     font-family: sanva;
