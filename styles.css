@@ -84,6 +84,25 @@ p {
  --bs-nav-link-hover-color: rgba(131, 23, 79, 0.91);
 
 }
+.contact-form {
+    width: 60%;
+    margin-left: 20%;
+    margin-bottom: 3%;
+}
+
+.form-names {
+    margin-bottom: 2%;
+}
+
+.submit-button {
+    justify-content: center;
+    --bs-btn-border-color: #796185;
+    color: #796185;
+    --bs-btn-hover-bg: #845799;
+    --bs-btn-hover-border-color:#845799;
+    --bs-btn-active-bg: #9870aa;
+    --bs-btn-active-border-color:#845799;
+}
 
 li {
     display: inline-block;
