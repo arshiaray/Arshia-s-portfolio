@@ -13,22 +13,25 @@
     src: url('./fonts/sanva\ font.ttf')
 }
 body {
-    background-color: rgb(169, 205, 175);
+    background-color: #afb3e3;
 }
 h1 {
     font-family: 'LetterMagic';
     font-size: 4.5em;
-    color: #A76571;
+    color: #511f6d;
     text-shadow: 1px 1px 0px black;
-    text-align: center;
-    margin-top: 20px;
+    text-align: left;
+    width: 60%;
+    margin-left: 20%;
+    margin-top: 40px;
 }
 h2 {
     font-family: 'sanva';
     margin-top: -10px;
-    color:#705458;
-    text-align: center;
-    text-shadow: 0px 0px 0.9px #C38D94;
+    margin-left: 20%;
+    color:#511f6d;
+    text-align: left;
+    text-shadow: 0px 0px 1.3px #FFD099;
     font-size: 130%;
 }
 
@@ -36,11 +39,13 @@ h3 {
     margin-left: 20%;
     margin-right: 20%;
     margin-bottom: 1rem;
+    margin-top: 3%;
     font-family: 'sanva';
     font-weight: bolder;
     font-size: 20px;
     text-shadow: 0px 0px 1.5px black;
     border: 1px;
+    color:rgb(67, 21, 90);
 
 }
 
@@ -61,10 +66,11 @@ p {
     margin-left: 20%;
     margin-right: 20%;
     font-family: 'sanva';
+    color: #1f063f;
 }
 .HeadingLine {
     height: 3px;
-    background: linear-gradient(90deg, #8db094, #6d8a73, #8db094);
+    background: linear-gradient(90deg, #6d88b9, #342885, #6d88b9);
     border: 0; 
     border-radius: 2px;
     width: 60%;
@@ -78,17 +84,21 @@ p {
  justify-content: center;
  font-family: 'sanva';
  font-size: 1em; 
- -webkit-text-stroke: 0.5px pink;
  letter-spacing: 2px;
- --bs-nav-pills-link-active-bg: rgba(112, 78, 95, 0.55);
- --bs-nav-link-hover-color: rgba(131, 23, 79, 0.91);
+ --bs-link-color: rgb(119, 71, 175);
+ --bs-nav-link-hover-color: #502563;
+--bs-nav-link-active-color: #b972cd;
 
 }
-
+label {
+    font-family: sanva;
+}
 .contact-form {
     width: 60%;
     margin-left: 20%;
     margin-bottom: 3%;
+    font-family: sanva;
+    color: rgb(67, 21, 90);
 }
 
 .form-names {
@@ -103,6 +113,7 @@ p {
     --bs-btn-hover-border-color:#845799;
     --bs-btn-active-bg: #9870aa;
     --bs-btn-active-border-color:#845799;
+    --bs-btn-padding-x: 5%;
 }
 
 li {
@@ -110,21 +121,6 @@ li {
     padding-left: 0;
 }
 
-a:link {
-    color: black;
-}
-
-a:visited {
-    color: #845799;
-}
-
-a:hover {
-    color: #845799;
-}
-
-a:active {
-    color: #be97d1;
-}
 
 .githublogo {
     width: 6%;
